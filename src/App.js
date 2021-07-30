@@ -52,7 +52,7 @@ export default function App() {
             return (
               <li key={genre.name}>
                 <div>{genre.name}</div>
-                <div style={{ fontSize: "smaller" }}>{genre.rating}</div>
+                <div style={{ fontSize: "smaller" }}>{genre.rating}</div> //genre rating
               </li>
             );
           })}
